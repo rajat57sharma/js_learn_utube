@@ -106,3 +106,18 @@ const users =[
 //returns all entries as array
 //console.log(tinder_user.hasOwnProperty("loggedin"))
 // returns bool
+
+const course ={
+    name : "javscript",
+    teacher:"hitesh",
+    timeperiod:3
+}
+
+const { name } = course
+console.log(name)
+// to have small name instead of having calling everytime by. we can go like this n u can also rename like {name: n1}
+// this is called as destructuring
+
+//in react there are some methids used for destructing
+
+// use api https://api.github.com/users/hiteshchoudhary for further understanding
